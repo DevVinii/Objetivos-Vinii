@@ -4,6 +4,7 @@ body {
     
 }
 ul {
+  flax-wrap: wrap;
   background: linear-gradient(to right, #C29191, #DF0404);
   color: white;
   display: flex;
@@ -47,6 +48,7 @@ p {
 }
 
 .center {
+  flax-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -79,6 +81,7 @@ section {
 }
 
 .first_section {
+  flax-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -87,6 +90,7 @@ section {
 }
 
 .second_section {
+  flax-wrap: wrap;
   background: linear-gradient(to right, #C29191, #DF0404);
   justify-content: space-evenly;
   align-items: center;
@@ -94,6 +98,7 @@ section {
 }
 
 .third_section {
+  flax-wrap: wrap;
   width: 30%;
   justify-content: space-evenly;
   align-items: center;
