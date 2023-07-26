@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(to right, #D9ADAD, #E22828);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+ul {
+  background: linear-gradient(to right, #C29191, #DF0404);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a :hover {
+  color: black;
+  transition: .4s;
+  text-decoration: underline
+}
+
+time{
+  border: 1px solid black;
+  padding: 4px 12px;
+  baclground-color: black;
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+  border-radius: 4px;
+}
+
+
+.img-pv{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+p {
+  color: white;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  min-height: 650px;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: white;
+}
+
+.img-about-me{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+main {
+  color: black;
+  gap: 2rem;
+}
+
+section {
+  padding: 4rem;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 650px;
+  padding: 2rem;
+}
+
+.second-section {
+  background: linear-gradient(to right, #C29191, #DF0404);
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 150px;
+}
+
+.third-section {
+  width: 30%;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 450px;
+  gap: 1rem;
+}
+
+
+footer img {
+  border-radius: 30%;
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background: linear-gradient(to right, #C29191, #DF0404);
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 2px;
+}
